@@ -1,2 +1,8 @@
-/cmake-build-debug
-/.idea
+/build/cmake/cmake-build-debug
+/build/cmake/.idea
+
+/build/win10/Debug
+*.opendb
+*.db
+*.vcxproj.user
+/.vs
