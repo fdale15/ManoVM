@@ -3,14 +3,20 @@
 class ManoVM;
 
 int main() {
-    //Creates the virtual machine with PC set a 1.
-    auto vm = ManoVM(1);
-    //Executes one instruction.
+    std::srand(time(NULL));
+    auto vm = ManoVM();
+    //Executes five instructions.
     vm.singleStepVm();
+    std::cout << "------------------------------------------------------" << std::endl;
+    vm.singleStepVm();
+    std::cout << "------------------------------------------------------" << std::endl;
+    vm.singleStepVm();
+    std::cout << "------------------------------------------------------" << std::endl;
+    vm.singleStepVm();
+    std::cout << "------------------------------------------------------" << std::endl;
+    vm.singleStepVm();
+    std::cout << "------------------------------------------------------" << std::endl;
 
-	std::cout << "Press any key to continue..." << std::endl;
-	std::string i;
-	std::getline(std::cin, i);
-
+    //vm.startVm();
     return 0;
 }
