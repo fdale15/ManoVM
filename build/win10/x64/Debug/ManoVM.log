@@ -1,0 +1,11 @@
+﻿  main.cpp
+c:\users\william\documents\github\manovm\src\manomv.h(126): warning C4553: '==': operator has no effect; did you intend '='?
+c:\users\william\documents\github\manovm\src\manomv.h(131): warning C4553: '==': operator has no effect; did you intend '='?
+c:\users\william\documents\github\manovm\src\manomv.h(133): warning C4553: '==': operator has no effect; did you intend '='?
+c:\users\william\documents\github\manovm\src\manomv.h(137): warning C4244: '=': conversion from 'unsigned long' to 'short', possible loss of data
+c:\users\william\documents\github\manovm\src\manomv.h(193): warning C4800: 'short': forcing value to bool 'true' or 'false' (performance warning)
+c:\users\william\documents\github\manovm\src\manomv.h(194): warning C4244: '=': conversion from 'unsigned long' to 'short', possible loss of data
+c:\users\william\documents\github\manovm\src\manomv.h(201): warning C4800: 'short': forcing value to bool 'true' or 'false' (performance warning)
+c:\users\william\documents\github\manovm\src\manomv.h(202): warning C4244: '=': conversion from 'unsigned long' to 'short', possible loss of data
+  ManoVM.vcxproj -> C:\Users\William\Documents\GitHub\ManoVM\build\win10\x64\Debug\ManoVM.exe
+  ManoVM.vcxproj -> C:\Users\William\Documents\GitHub\ManoVM\build\win10\x64\Debug\ManoVM.pdb (Partial PDB)
